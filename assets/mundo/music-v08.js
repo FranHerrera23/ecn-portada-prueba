@@ -2,7 +2,7 @@
 (()=>{
  const button=document.querySelector('[data-hero-music]'); if(!button)return;
  const words={es:['Activar música','Pausar música','No se pudo cargar el audio'],ru:['Включить музыку','Выключить музыку','Не удалось загрузить аудио'],en:['Play music','Pause music','Audio could not load']}[document.documentElement.lang]||['Play music','Pause music','Audio could not load'];
- const audio=new Audio('/assets/mundo/hero-guitar-v08.mp3'); audio.loop=true;audio.preload='metadata';audio.volume=.3;
+ const audio=new Audio('/ecn-portada-prueba/assets/mundo/hero-guitar-v08.mp3'); audio.loop=true;audio.preload='metadata';audio.volume=.3;
  let preference='on',busy=false,interacted=false;
  try{preference=localStorage.getItem('ecn:hero-music')||'on'}catch{}
  const label=button.querySelector('span');
