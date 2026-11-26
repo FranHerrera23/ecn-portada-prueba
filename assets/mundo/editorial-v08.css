@@ -1,0 +1,56 @@
+
+/* ECN V08 — shared editorial rhythm, product clarity and accessible controls. */
+.edition-v8 .offer-grid-v5{gap:0 clamp(32px,5vw,80px)}
+.edition-v8 .offer-grid-v5>.panel{display:flex;flex-direction:column;align-items:flex-start;gap:0;padding:32px 0 36px;min-width:0}
+.edition-v8 .offer-grid-v5 .offer-number{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px 12px;margin:0 0 20px;padding:0;letter-spacing:0;line-height:1.35}
+.edition-v8 .offer-number strong{font-size:27px;letter-spacing:-.04em;color:var(--green)}
+.edition-v8 .offer-number span{font:500 13px/1.5 var(--sans);color:var(--muted);letter-spacing:0}
+.edition-v8 .offer-grid-v5 h3{font-size:clamp(28px,2.45vw,38px);line-height:1.13;margin:0 0 20px;max-width:23ch}
+.edition-v8 .offer-grid-v5 .panel>p:last-child{font-size:16px;line-height:1.7;max-width:60ch;margin:0}
+.edition-v8 .section#curso>.product-price{margin-top:28px}
+.edition-v8 .section#curso>.actions{margin-top:24px}
+.edition-v8 .roadmap-v7>.section-head-v7{gap:40px;margin-bottom:48px;align-items:end}
+.edition-v8 .roadmap-v7 .section-head-v7 h2{font-size:clamp(38px,4.2vw,64px);max-width:19ch;margin:0}
+.edition-v8 .offer-road-v7{gap:32px}
+.edition-v8 .offer-road-v7 article{padding-top:24px;border-top:1px solid var(--green)}
+.edition-v8 .offer-road-v7 article:first-child{border-top-width:2px;padding-top:23px}
+.edition-v8 .road-meta-v8{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;margin-bottom:28px}
+.edition-v8 .road-meta-v8 .offer-date-v7{font-size:13px;margin:0}
+.edition-v8 .road-meta-v8 .status-v7{font-size:11px;margin:0;padding:4px 9px;border:1px solid var(--hair);line-height:1.4}
+.edition-v8 .offer-road-v7 article:first-child .status-v7{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.edition-v8 .offer-road-v7 h3{font-size:clamp(28px,2.55vw,39px);line-height:1.12;letter-spacing:-.035em;margin:0 0 18px}
+.edition-v8 .offer-road-v7 h4{font:600 15px/1.5 var(--sans);letter-spacing:0;margin:0 0 20px}
+.edition-v8 .offer-description-v7{font-size:16px;line-height:1.7;margin:0 0 28px;flex:1}
+.edition-v8 .offer-road-v7 .offer-price-v7{font-size:29px;line-height:1.2;letter-spacing:-.04em;margin:0 0 10px}
+.edition-v8 .offer-road-v7 small{font-size:12px;line-height:1.6;min-height:40px;margin:0}
+.edition-v8 .offer-road-v7 .textlink{margin-top:28px;font-size:13px}
+.edition-v8 .roadmap-v7>.progress-note-v7{margin-top:30px;max-width:95ch}
+.edition-v8 .faq-v8{border-top:1px solid var(--hair);display:grid;grid-template-columns:1fr 1.6fr;gap:clamp(24px,5vw,80px)}
+.edition-v8 .faq-v8 h2{font-size:clamp(32px,3.8vw,52px);max-width:15ch;line-height:1.15;margin:0}
+.edition-v8 .faq-v8 details{border-top:1px solid var(--hair);padding:22px 0}
+.edition-v8 .faq-v8 details:last-child{border-bottom:1px solid var(--hair)}
+.edition-v8 .faq-v8 summary{cursor:pointer;font-size:17px;font-weight:600;line-height:1.5;padding-right:12px}
+.edition-v8 .faq-v8 details p{font-size:16px;line-height:1.75;max-width:66ch;margin:18px 0 0}
+.edition-v8 .faq-v8 details a{text-decoration:underline;text-underline-offset:4px}
+.edition-v8 .breadcrumbs-v8{display:flex;gap:10px;flex-wrap:wrap;margin:0;padding:20px var(--gutter);font-size:12px;line-height:1.5;border-bottom:1px solid var(--hair);color:var(--muted)}
+.edition-v8 .breadcrumbs-v8 a{color:var(--ink)}
+.edition-v8 .storycard>div,.edition-v8 .storycard>.meta{margin-top:20px}
+.edition-v8 .storycard h2,.edition-v8 .storycard h3{margin-top:14px;margin-bottom:20px}
+.edition-v8 .read-time-v7{margin-top:16px}
+.edition-v8 .natali-archive h3{margin-top:24px}
+.edition-v8 .sound-v6{min-height:44px}
+.edition-v8 .sound-v6[aria-pressed="true"] svg{opacity:1}
+.edition-v8 .sound-v6[aria-pressed="false"] svg{opacity:.65}
+.edition-v8 :is(a,button,summary):focus-visible{outline:2px solid var(--green);outline-offset:5px}
+@media(max-width:760px){
+.edition-v8 .offer-grid-v5{grid-template-columns:1fr}
+.edition-v8 .offer-grid-v5>.panel{padding:26px 0}
+.edition-v8 .offer-grid-v5 h3{font-size:30px;margin-bottom:16px}
+.edition-v8 .offer-grid-v5 .offer-number{margin-bottom:16px}
+.edition-v8 .faq-v8{grid-template-columns:1fr}
+.edition-v8 .offer-road-v7{grid-template-columns:1fr;gap:38px}
+.edition-v8 .offer-road-v7 h3{font-size:34px}
+.edition-v8 .offer-road-v7 small{min-height:0}
+.edition-v8 .offer-road-v7 .textlink{margin-top:22px}
+.edition-v8 .roadmap-v7>.section-head-v7{margin-bottom:32px}
+}
